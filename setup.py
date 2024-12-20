@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
 
 setup(
 	nome = 'condoAccess',
-	version = '0.0.1',
+	version = '0.0.2',
 	author = 'Adonis Pantoja',
 	author_email = 'adonisruis07@gmail.com',
 	description ='Sistema de gerenciamento de entrada e saída de condomínio.',
@@ -15,6 +15,5 @@ setup(
 	long_description_content_type = 'text/markdown',
 	url = 'https://github.com/Adonis071/gerenciamento_de_portaria.git',
 	packages= find_packages(),
-    install_requires= requirements,
 	python_requires='>=3.8',	
 )
