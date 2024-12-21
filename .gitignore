@@ -1,0 +1,14 @@
+# Ambientes virtuais
+venv/
+novo_venv/
+
+# Distribuições do Python
+build/
+dist/
+*.egg-info/
+
+# Arquivos de dependências
+*.lock
+
+# Configurações do VSCode
+.vscode/
